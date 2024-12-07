@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<!-- fancy spreadsheet file -->
+        <link rel="stylesheet" href="fancifymytext.css">
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+
+        <!-- fieldset for users to enter all their text -->
+        <fieldset id="textFieldset">
+            <!-- border around the fieldset called "Text" -->
+            <legend>Text</legend>
+            <textarea rows="4" cols="30" id="userText"></textarea>
+        </fieldset>
+
+        <!-- fieldset for fancifying -->
+        <fieldset id="fancifyFieldset">
+            <!-- border around the fieldset called "Fancify" -->
+            <legend>Fancify</legend>
+            <!-- button labeled "Bigger!" -->
+            <button id="biggerButton">Bigger!</button>
+            <!-- button labeled "Moo" -->
+             <button id="mooButton">Moo</button>
+            <!-- Radio buttons -->
+            <div>
+                <input type="radio" id="fancySchmancy" name="style" value="fancy" checked>
+                <label for="fancySchmancy">FancyShmancy</label>
+            </div>
+            <div>
+                <input type="radio" id="boringBetty" name="style" value="boring">
+                <label for="boringBetty">BoringBetty</label>
+            </div>
+        </fieldset>
+
+		<!-- fancy javascript file -->
+		<script src="fancifymytext.js" defer></script>
+	</body>
+</html>

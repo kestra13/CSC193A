@@ -1,0 +1,34 @@
+/* General styling for fieldsets */
+fieldset {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Styling for legends */
+legend {
+    font-weight: bold;
+}
+
+/* Styling for textarea */
+textarea {
+    width: calc(30ch + 2px); /* Matches 30 columns */
+    height: calc(4em + 2px); /* Matches 4 rows */
+    resize: none; /* Prevent resizing by users */
+}
+
+/* Fancy styles */
+.fancy {
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Boring styles */
+.boring {
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
